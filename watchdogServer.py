@@ -9,9 +9,9 @@ from watchdog.events import FileSystemEventHandler
 # 🔧 CONFIGURATION
 WATCHED_FOLDER = r"C:\xampp\htdocs\ESP32CAM\captured_images"
 API_ENDPOINT = "https://66ba-34-125-138-183.ngrok-free.app/identify"
-TO_EMAIL = "21je0715@iitism.ac.in"
-FROM_EMAIL = "ayushpersonalwork19@gmail.com"
-EMAIL_PASSWORD = "denavlbofcxewpsc"  # Use Gmail App Password here
+TO_EMAIL = "sample_email"
+FROM_EMAIL = "Seneders_email"
+EMAIL_PASSWORD = "gmail_app_password"  # Use Gmail App Password here
 
 def send_intruder_alert(image_path):
     msg = EmailMessage()
